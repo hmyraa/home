@@ -1,0 +1,127 @@
+body {
+    background-color: #f8f0f4;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8539a3;
+}
+
+header {
+    padding: 20px;
+}
+
+h2 { 
+    margin: 10px 0;  
+    text-align: center;
+    line-height: 1.5; 
+    padding: 10px;
+    text-decoration: underline;
+    color: #8539a3;
+}
+
+form {
+    width: 50%; 
+    margin: 0 auto; 
+    border: 2px solid #f5b7da; 
+    padding: 20px; 
+    text-align: left; 
+}
+  
+form label, form input {
+    display: block; 
+    margin: 10px auto; 
+    width: 50%; 
+}
+
+
+label[for="description"], textarea[name="description"] {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+     
+}
+
+label[for="phase"], select[name="phase"] {
+    display: block;
+    margin: 10px auto;
+    width: 25%;
+}
+
+#projectTable {
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: 20px auto; 
+}
+  
+#projectTable th {
+    font-weight: bold;
+    background-color: #f86eb6; 
+    color: f8f0f4;
+    padding: 10px; 
+    text-align: left; 
+}
+  
+#projectTable td {
+    padding: 10px; 
+    border: 1px solid #f5b7da; 
+}
+  
+#projectTable tr:nth-child(even) {
+    background-color: #f5b7da;
+    color: 1a7941; 
+}
+
+.link {
+    text-align: center;
+}
+
+.link p{
+    margin: 10px ;  
+    display: inline-block;
+    color: #8539a3;
+}
+
+p { 
+    margin: 10px 0;  
+    text-align: center; 
+    line-height: 1.5;
+    padding: 10px;
+    color: #1a7941;
+}
+
+p a {
+    color: #c731ff; 
+    text-decoration: none; 
+    border-bottom: 2px solid #c731ff; 
+}
+  
+footer {
+    padding: 20px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f5b7da;
+    padding: 10px;
+}
+  
+.table p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #f5b7da;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: #1a7941;
+}
+
+#more {
+    padding: 2px;
+    background-color: #f8f0f4;
+    border-radius: 10px;
+    color: #c731ff; 
+    text-decoration: none; 
+    border-bottom: 2px solid #c731ff; 
+}
+  
